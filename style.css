@@ -1,0 +1,710 @@
+
+/*===================*/
+/* 全体のスタイル */
+/*==================*/
+*{
+  font-family:Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+body{
+  color:black;
+  margin: 0;
+  line-height: 1.6;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: 1.0s;
+}
+main{
+  margin-top: 30px;
+  font-style: oblique;
+}
+.a:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+.more{
+  display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: mistyrose;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+.more:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0px;
+  font-style: oblique;
+  font-family:Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+#roommate{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/*===================*/
+/* headerのスタイル */
+/*==================*/
+
+header{
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+
+}
+
+.header-logo{
+  font-size: 35px;
+  border-bottom: solid 10px yellow;
+  font-family:Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+  color: gray;
+}
+.header-nav li a:hover{
+  color: orangered;
+  transition: 0.5s;
+}
+.header-nav li{
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 35px;
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
+.header-nav listfirst-child{
+  margin: 0;
+}
+
+/*===================*/
+/* eyecatchのスタイル */
+/*==================*/
+#eyecatch{
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(./img/wakayama.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: 90% 40% ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family:Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+.catch-copy{
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  margin-top: 0;
+  padding-top: 50px;
+}
+/*===================*/
+/* Carrer-boxのスタイル */
+/*==================*/
+.Carrer-item{
+  background-color: #fff;
+  border: 2px solid black;
+  text-align: center;
+  width: 250px;
+  box-shadow: 3px 3px 10px green;
+  padding: 20px 30px 50px ;
+  font-size: 18px;
+  width:300px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+#Carrer-box .wrap{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 60px;
+  background-color: papayawhip;
+}
+
+.Carrer-item p{
+  margin-top: 10px;
+}
+.Carrer-item h2{
+  color: gold;
+}
+
+.Carrer-item span{
+  font-size: 80px;
+  display: block;
+  color: mediumblue;
+}
+.wrap{
+  margin-top: 0;
+}
+
+/*===================*/
+/* travel-logのスタイル */
+/*==================*/
+#travel-log{
+  width: 1450px;
+  margin: 0 auto;
+}
+
+.t-wrap1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.kyoto-log{
+  background-image: url(./img/kyoto1.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.wakayama-log{
+  background-image: url(./img/wakayama2.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: 95% 10%;
+}
+.tottori-log{
+  background-image: url(./img/tottori2.jpg);
+  height: auto;
+  width: 550px;
+  background-size: cover;
+  background-position: 58% 90%;
+}
+
+
+.spot{
+  border-bottom: 6px double orangered;
+  color:navy;
+  background-color: rgba(129,244, 225, 0.8);
+}
+
+.most{
+  display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: mistyrose;
+  padding: 8px 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+
+}
+.most:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color:yellowgreen;
+}
+
+
+/*===================*/
+/* favarite-logのスタイル */
+/*==================*/
+#favarite-log{
+  width: 1200px;
+  height: 1650px;
+  margin: 0 auto;
+  position: relative;
+}
+.f-wrap{
+  width: 1200px;
+  margin: 0;
+}
+.aa{
+  font-size: 40px;
+  color:black;
+  font-weight: bold;
+}
+.h2carp{
+  margin: 0;
+  font-size: 40px;
+  color: red;
+}
+.favarite-item1{
+  text-align: center;
+}
+.favarite-item2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.carp1{
+  background-image: url(./img/carp1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 600px;
+  background-size: cover;
+  position: absolute;
+  left: 30px;
+}
+.carp2{
+  background-image: url(./img/carp2.jpg);
+  height: 400px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 30px;
+  background-position: 50% 70%;
+}
+
+.seiya{
+  border: 2px double black;
+  font-weight: bold;
+  padding: 6px 10px;
+  background-color: rgb(218, 13, 13);
+  color: white;
+}
+.seiya:hover{
+  transition: 1.0s;
+  color: black
+}
+
+.city-box{
+  margin-top:420px ;
+  text-align: center;
+}
+.bb{
+  font-size: 40px;
+  color:black;
+  font-weight: bold;
+}
+.h2city{
+  margin: 0;
+  font-size: 40px;
+  color:skyblue;
+}
+.kevin{
+  border: 2px double black;
+  font-weight: bold;
+  padding: 6px 10px;
+  background-color: rgb(14, 216, 238);
+  color: white;
+}
+.kevin:hover{
+  transition: 1.0s;
+  color: black
+}
+.favarite-item4{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.city1{
+  background-image: url(./img/mancity1.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 600px;
+  background-size: cover;
+  background-position: 80% 60%;
+  position: absolute;
+  right: 30px;
+}
+
+.city2{
+  position: absolute;
+  left: 30px;
+}
+.city3{
+  background-image: url(./img/ciity4.jpg);
+  height: 330px;
+  background-repeat: no-repeat;
+  width: 600px;
+  background-size: cover;
+  background-position:10% 10%;
+  position: absolute;
+  right: 30px;
+  top: 310px;
+}
+
+/*===================*/
+/* part-time jobのスタイル */
+/*==================*/
+#part-job{
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+.part-info{
+  background-color: rgba(129,244, 225, 0.2);
+  height: 1130px;
+}
+.job-info{
+  height: 600px
+}
+
+.tomo-filter{
+
+  color: navy;
+  font-size: 40px;
+  text-decoration: underline red;
+  text-align: center;
+  margin: 0 500px;
+  margin-bottom: 20px;
+}
+.tomo{
+  display: flex;
+  justify-content: space-around;
+}
+.tomo1{
+  background-image: url(./img/tomohuku2.jpg);
+  height: 450px;
+  width: 400px;
+  background-size: cover;
+  background-position: 45% 5%;
+  position: absolute;
+  left: 30px;
+}
+.tomo2{
+  background-image: url(./img/tomohuku.jpg);
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  left:450px;
+  background-size: cover;
+}
+.tomo3{
+  background-image: url(./img/tomohuku5.jpg);
+  height: 450px;
+  width: 470px;
+  position: absolute;
+  left: 930px;
+  background-size: cover;
+  background-position:50% 50% ;
+}
+
+.tomohuku-info{
+  height: 800px;
+  position: absolute;
+  right: 30px;
+  
+ /* display: flex;
+  justify-content: space-between;*/
+}
+.imgtomo{
+  background-image: url(./img/tomohuku4.jpg);
+  height: 500px;
+  width: 900px;
+  position: absolute;
+  left:50px ;
+  background-position: 5% 44%;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.food{
+  font-size: 100px;
+  display:flex;
+  justify-content: space-evenly;
+  color: orangered;
+}
+
+.moji{
+  border: 2px solid black;
+  padding-bottom: 20px;
+  margin-left:750px;
+  font-style: oblique;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.kodawari{
+  text-align: center;
+  border-bottom:2px solid red;
+  margin: 0 150px;
+}
+
+.lost{
+  display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: mistyrose;
+  padding: 8px 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: 315px;
+}
+.lost:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+
+
+
+
+.cippo-info{
+  background-color: lightgreen;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.cippo-filter{
+  color: navy;
+  font-size: 40px;
+  text-decoration: underline yellow;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.coppo{
+  text-align: center;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.cippo1{
+  background-image: url(./img/cippo1.jpg);
+  height: 450px;
+  width: 400px;
+  position: absolute;
+  left:30px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.cippo2{
+  background-color: rgba(92, 30, 226, 0.2);
+  height: 450px;
+  width: 500px;
+  position: absolute;
+  left: 467px;
+  line-height: 1.8;
+}
+span4{
+  font-size: 80px;
+  position: absolute;
+  left:200px;
+  top: 10px;
+  color: green;
+  margin-bottom: 30px;
+}
+.daimei{
+  text-align: center;
+  color: rgb(9, 1, 248);
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+.cippo-text{
+  color: navy;
+  line-height: 1.8;
+  font-style: italic;
+  font-stretch: wider;
+}
+.cippo3{
+  background-image: url(./img/cippo2.jpg);
+  height: 450px;
+  width: 370px;
+  background-size: cover;
+  position: absolute;
+  right: 30px;
+}
+.lose{
+  display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: greenyellow;
+  padding: 6px 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 190px;
+
+}
+.lose:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+
+/*============================*/
+/*    roommateのスタイル      */
+/*=============================*/
+.student{
+  background-color: greenyellow;
+  height:530px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.member{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.title{
+  margin-top: 0;
+}
+
+.kawamura{
+  background-image: url(./img/daisuke.jpg);
+  height: 400px;
+  width: 500px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/*.dai{display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: greenyellow;
+  padding: 6px 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 190px;
+  width: 600px;
+}
+.dai:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}*/
+
+.hirai{
+  background-image: url(./img/kaisei.jpg);
+  height: 400px;
+  background-size: cover;
+  width: 500px;
+  background-position: 50% 90%;
+}
+/*.kai{display: inline-block;
+  color: #0476ef;
+  border: 2px solid black ;
+  background-color: greenyellow;
+  padding: 6px 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 190px;
+  width: 600px;
+}
+.kai:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}*/
+
+.introduce{
+  display: flex;
+}
+.kawamu{
+  position: absolute;
+  left: 200px;
+}
+
+.hira{
+  position: absolute;
+  right: 250px;
+}
+.dai{
+  position: absolute;
+  left: 270px;
+  bottom: 20px;
+  display: inline-block;
+  color: #df0fa1;
+  border: 2px solid black ;
+  background-color: orange;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+.dai:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+
+.kai{
+  position: absolute;
+  right: 260px;
+  bottom: 20px;
+  display: inline-block;
+  color: #df0fa1;
+  border: 2px solid black ;
+  background-color: orange;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+.kai:hover{
+  color: #fff;
+  transition: 1.0s;
+  background-color: coral;
+}
+/*============================*/
+/*    contactのスタイル      */
+/*=============================*/
+
+.access-box{background-color: rgba(252, 21, 182, 0.4);
+  padding:20px 0 ;
+}
+
+.access1{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.item:hover{
+  color:purple;
+  transition: 1.0s;
+}
+
+.access2{
+  background-color: #fff;
+  border: 2px solid black;
+  text-align: center;
+  box-shadow: 3px 3px 10px yellow;
+  padding: 20px 30px 50px ;
+  font-size: 18px;
+  width:300px;
+  background-color: thistle;
+}
+.insta{
+  border: 2px solid purple;
+  padding: 6px 10px;
+  color:white;
+  font-weight: bold;
+  background-color: rgba(92, 30, 226, 0.2);
+  font-style: oblique;
+
+}
+span-1{
+  color:red;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+span-2{
+  color: purple;
+  font-size: 70px;
+  font-weight: bolder;
+}
+span-3{
+  color: royalblue;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+/*============================*/
+/*    footerのスタイル      */
+/*=============================*/
+footer{
+  background-color: darkgrey;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
